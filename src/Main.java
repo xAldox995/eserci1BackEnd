@@ -16,7 +16,7 @@ public class Main {
 
 //        System.out.println(" ESERCIZIO 2");
 //        Scanner in = new Scanner(System.in);
-//ciao
+//
 //        System.out.println("Inserisci la prima Stringa");
 //        String firstString = in.nextLine();
 //
@@ -99,9 +99,9 @@ public class Main {
         return (n % 2 == 0) ? 0 : 1;
     }
 
-    static double areaDelTringhialo (double l1, double l2, double l3){
+    static double areaDelTringhialo(double l1, double l2, double l3) {
         double semiPerimetro = (l1 + l2 + l3);
-        double area = Math.sqrt(semiPerimetro*(semiPerimetro-l1)*(semiPerimetro-l2)*(semiPerimetro-l3));
+        double area = Math.sqrt(semiPerimetro * (semiPerimetro - l1) * (semiPerimetro - l2) * (semiPerimetro - l3));
         return area;
     }
 
