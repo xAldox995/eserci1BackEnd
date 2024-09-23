@@ -59,15 +59,15 @@ public class Main {
 
     }
 
-    static int multiplication(int a, int b) {
+    public static int multiplication(int a, int b) {
         return a * b;
     }
 
-    static String concatenateStrings(String x, int y) {
+    public static String concatenateStrings(String x, int y) {
         return x + y;
     }
 
-    static String[] manageArray(String[] originalArray, String newString) {
+    public static String[] manageArray(String[] originalArray, String newString) {
         if (originalArray.length != 5) {
             System.out.println("L'array deve essere di 5 elementi");
         }
@@ -83,23 +83,23 @@ public class Main {
         return newArray;
     }
 
-    static String concatenationInOrder(String s1, String s2, String s3) {
+    public static String concatenationInOrder(String s1, String s2, String s3) {
         return s1 + s2 + s3;
     }
 
-    static String reverseOrder(String s1, String s2, String s3) {
+    public static String reverseOrder(String s1, String s2, String s3) {
         return s3 + s2 + s1;
     }
 
-    static double perimeterOfTheRectangle(double l1, double l2) {
+    public static double perimeterOfTheRectangle(double l1, double l2) {
         return 2 * (l1 + l2);
     }
 
-    static int oddOrEven(int n) {
+    public static int oddOrEven(int n) {
         return (n % 2 == 0) ? 0 : 1;
     }
 
-    static double areaDelTringhialo(double l1, double l2, double l3) {
+    public static double areaDelTringhialo(double l1, double l2, double l3) {
         double semiPerimetro = (l1 + l2 + l3);
         double area = Math.sqrt(semiPerimetro * (semiPerimetro - l1) * (semiPerimetro - l2) * (semiPerimetro - l3));
         return area;
