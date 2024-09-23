@@ -7,7 +7,7 @@ public class Main {
         int result = Main.multiplication(8, 4);
         System.out.println("il risutato della moltiplicazione è " + result);
 
-        String frase = Main.concatenateStrings("Ciao ", "prof");
+        String frase = Main.concatenateStrings("Ciao ", 6);
         System.out.println(frase);
 
         String[] exampleArray = {"1", "2", "3", "4", "5"};
@@ -63,7 +63,7 @@ public class Main {
         return a * b;
     }
 
-    static String concatenateStrings(String x, String y) {
+    static String concatenateStrings(String x, int y) {
         return x + y;
     }
 
