@@ -15,7 +15,6 @@ public class Main {
         System.out.println("il nuovo array è: " + Arrays.toString(modifyArray));
 
 //        System.out.println(" ESERCIZIO 2");
-//         ciao
 //        Scanner in = new Scanner(System.in);
 //
 //        System.out.println("Inserisci la prima Stringa");
