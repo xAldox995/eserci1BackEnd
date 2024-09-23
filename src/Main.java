@@ -96,7 +96,7 @@ public class Main {
     }
 
     public static int oddOrEven(int n) {
-        return (n % 2 == 0) ? 0 : 1;
+        return n % 2 == 0 ? 0 : 1;
     }
 
     public static double areaDelTringhialo(double l1, double l2, double l3) {
