@@ -16,7 +16,7 @@ public class Main {
 
 //        System.out.println(" ESERCIZIO 2");
 //        Scanner in = new Scanner(System.in);
-//
+//ciao
 //        System.out.println("Inserisci la prima Stringa");
 //        String firstString = in.nextLine();
 //
