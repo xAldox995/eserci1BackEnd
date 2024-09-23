@@ -49,9 +49,9 @@ public class Main {
         System.out.println("il numero scelto è:" + Main.oddOrEven(n1));
         System.out.println("il numero scelto è:" + Main.oddOrEven(n2));
 
-        double lato1 = 3.0;
-        double lato2 = 4.0;
-        double lato3 = 5.0;
+        double lato1 = 3.1;
+        double lato2 = 4.2;
+        double lato3 = 5.3;
 
         double area = Main.areaDelTringhialo(lato1, lato2, lato3);
         System.out.println("L'area del triangolo è: " + area);
@@ -100,7 +100,7 @@ public class Main {
     }
 
     public static double areaDelTringhialo(double l1, double l2, double l3) {
-        double semiPerimetro = (l1 + l2 + l3);
+        double semiPerimetro = (l1 + l2 + l3) / 2;
         double area = Math.sqrt(semiPerimetro * (semiPerimetro - l1) * (semiPerimetro - l2) * (semiPerimetro - l3));
         return area;
     }
